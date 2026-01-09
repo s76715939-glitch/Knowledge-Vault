@@ -219,3 +219,75 @@ body {
 .card-details {
     text-align: center;
 }
+
+.brain-section {
+    max-width: 1360px;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    margin-top: 120px;
+}
+
+.brain-section img {
+    width: 600px;
+    height: 600px;
+    border-radius: 16px;
+}
+
+.brain-section p {
+    margin-bottom: 16px;
+}
+
+.check-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 42px;
+}
+
+.check-item p {
+    margin: 0;
+    color: #001931;
+    font-weight: 600;
+}
+
+.check-item i {
+    color: #30AC66;
+}
+
+.check-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.think-section {
+    background-color: #F7F6F2;
+    max-width: 1360px;
+    padding: 75px 0px;
+    margin: 0px auto;
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.think-section button {
+    padding: 18px 25px;
+}
+
+.think-section button i {
+    margin-left: 10px;
+}
+
+.think-section p {
+    text-align: center;
+}
+
+.think-section .section-title {
+    line-height: 1;
+    margin: 0;
+}
