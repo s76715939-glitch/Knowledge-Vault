@@ -250,6 +250,7 @@ body {
     margin: 0;
     color: #001931;
     font-weight: 600;
+    line-height: 20px;
 }
 
 .check-item i {
@@ -285,6 +286,7 @@ body {
 
 .think-section p {
     text-align: center;
+    line-height: 24px;
 }
 
 .think-section .section-title {
@@ -347,4 +349,5 @@ body {
 .credit-footer p {
     color: #FAFAFA;
     font-size: 16px;
+    line-height: 24px;
 }
