@@ -274,6 +274,7 @@ body {
     align-items: center;
     justify-content: center;
     gap: 24px;
+    border-radius: 12px;
 }
 
 .think-section button {
