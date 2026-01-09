@@ -152,3 +152,70 @@ body {
 .banner-button button i {
     margin-left: 10px;
 }
+
+.card-section {
+    max-width: 1600px;
+    margin: 48px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.section-title {
+    font-size: 48px;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+.section-p {
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+}
+
+.card-container {
+    display: flex;
+    gap: 24px;
+}
+
+.card-container .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    width: 322px;
+    height: 300px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 0 5px 0 #0000005d;
+    margin-top: 44px;
+    padding: 0px 24px;
+}
+
+.card .icon {
+    width: 60px;
+    height: 60px;
+    background-color: #F95555;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.icon img {
+    width: 32px;
+    height: 32px;
+}
+
+.card-title h2 {
+    font-size: 24px;
+    color: #001931;
+    font-weight: 600;
+}
+
+.card-title,
+.card-details {
+    text-align: center;
+}
